@@ -1,0 +1,70 @@
+*
+{
+	font-family:Times New Roman;
+	font-size:18px;
+}
+#container
+{
+   min-height:100%;
+   position:relative;
+}
+.header
+{
+	font-size:28px;
+	text-align:center;
+	font-weight:bold;
+}
+
+a
+{
+	text-decoration:none;
+}
+a:hover
+{
+	text-decoration:underline;
+}
+.index a
+{
+	display:block;	
+}
+
+.index
+{
+	list-style:none;
+	background-color:#DEDEDE;
+	border-radius:8px;
+	width:35%;
+}
+.index li
+{
+	
+}
+.level1
+{
+	margin-left:10px;
+}
+.level2
+{
+	margin-left:20px;
+}
+
+.title
+{
+	font-weight:bold;
+	font-size:24px;
+}
+.screenshot
+{
+}
+.explanation
+{
+
+}
+
+.footer
+{
+	position:absolute;
+	bottom:0;
+	background:grey;
+	text-align:center;
+}

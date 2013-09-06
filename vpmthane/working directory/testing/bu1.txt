@@ -1,0 +1,85 @@
+//for($obj as $key=>$value) 
+//{ // This will search in the 2 jsons
+
+
+	// var_dump($correctAns->{"2"});
+	// //echo $c." is c<br/>"
+	// if($value==$converter->decode($c))
+	// {
+		// echo "Match Found -- Answered was -- ".$value." Correct Ans is -- ".$converter->decode($c)."<br/>";
+	// }
+	// else
+	// {
+		// echo "No Match Found -- Answered was -- ".$value." Correct Ans is -- ".$converter->decode($c)."<br/>";
+	// }
+// }
+//	foreach($correctAns as $key1)
+	//{		
+	//	var_dump("This is ".$value);
+		
+		//echo "key ".$obj->{$key};
+		//echo $key;
+	//	var_dump("Correct Answer is ".$key1. "value is ".$value);
+		//if($value==$converter->decode($key1))
+	//	{
+			//echo "Match Found -- Answered was -- ".$value." Correct Ans is -- ".$converter->decode($key)."<br/>";
+//		}
+//		else
+	//	{
+		//	//echo "No Match Found -- Answered was -- ".$value." Correct Ans is -- ".$converter->decode($key)."<br/>";
+		//}
+			 // This will show jsut the value f each key like "var1" will print 9
+                       // And then goes print 16,16,8 ...
+					   
+					   
+		// if($converter->decode($value)==$obj->{$key})
+		// {
+			// $result++;
+		// }
+	//}
+//}
+//echo "The result is ".$result;
+
+	// $r=$correctAns->{'$i'};
+	// $correct_answer = $converter->decode($r);
+	// $answered = $obj->{$i};
+	// if($answered==$correct_answer)
+	// {
+		// //echo $obj->{"$i"};
+		// //echo $converter->decode($correctAns->{"$i"});
+		// $result++;
+	// }
+	// else
+	// {
+		// echo "did not work boo";
+	// }
+
+//echo "Result is ".$result;
+//$result_marks;
+//$size = $_POST['count'];
+//echo $_POST['no'];
+//echo $result;
+//echo "Count here ".$size;
+//	echo "sice $result[0]";
+ // for($i=1;$i<=$size;$i++)
+// {
+	// $result[$i] = $_POST['number'];
+	// echo $result[$i];
+// }
+
+
+
+
+
+
+/*
+$decode1 = $converter->decode();
+$decode2 = $converter->decode();
+$decode3 = $converter->decode();
+$decode4 = $converter->decode();
+define(1,$decode1);
+define(2,$decode2);
+define(3,$decode3);
+define(4,$decode4);
+
+*/

@@ -1,0 +1,66 @@
+// var radioResults = 'Radio buttons: ';
+	/*for (var i = 0; i < form.elements.length; i++ ) {
+		//document.getElementById("radioResults").innerHTML = "tjoiasd";
+		radioResults += i +" -- "+ form.elements[i].name + "<br/>";
+		//document.getElementById("radioResults").innerHTML = ;
+	}*/
+	// var radionames,x;
+	// for (var i = 0; i < form.elements.length; i++ ) {
+		// if (form.elements[i].type == 'radio') 
+		// {
+			// for (x in form.elements[i].getAttribute('name'))
+			// {
+				// if (x.checked == true) 
+				// {
+				// radioResults += x.value + ' ';
+				// break;
+				// }
+				// else 
+				// {
+				// radioResults += "null ";
+				// break;
+				// }
+				// break;
+			// }
+// break;			
+		// }
+	// }
+	
+	
+	
+	
+    // for (var i = 0; i < form.elements.length; i++ ) {
+        // if (form.elements[i].type == 'radio') {
+			// radioResults+='name = '+form.elements[i].getAttribute('name')+'<br/> ';	
+            // // if (form.elements[i].checked == true) {
+                // radioResults += form.elements[i].value + ' ';
+            // }
+			// else 
+			 // radioResults += "null ";
+			// }
+        // }
+		
+	//	document.getElementById("radioResults").innerHTML= 'hfjfj';
+
+		var j=0, display="asd", check ='0',i=0;
+		var radionames =new Array(21);
+		var str="asdkj";
+        //document.getElementById("radioResults").innerHTML = "asdas";
+
+		for(i; i < form.elements.length; i++ )
+		{     
+			if (form.elements[i].type == 'radio') 
+			{
+				check=form.elements[i].getAttribute('name');
+				radionames[j]=form.elements[i].value;
+				j=j+1;
+				document.getElementById("radioResults").innerHTML =i + "<br/>";
+			}
+			
+		}
+		
+		for (i=0;i<radionames.length;i++)
+		{	
+			//document.getElementById("radioResults").innerHTML =str;
+			// document.getElementById("radioResults").innerHTML = radionames[i] + "<br/>";
+		}
